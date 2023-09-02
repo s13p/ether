@@ -673,7 +673,6 @@
     --margin-top: 40px;
     --margin-right: 0px;
     --margin-bottom: 0px;
-    --margin-left: 20%
 }
 
 .elementor-246 .elementor-element.elementor-element-176310e {
@@ -7664,13 +7663,15 @@
 .elementor-246 .elementor-element.elementor-element-bd3b4b5 {
     --display: flex;
     --min-height: 410px;
+    --align-items:center;
     --flex-direction: column;
     --container-widget-width: 100%;
     --container-widget-height: initial;
     --container-widget-flex-grow: 0;
     --container-widget-align-self: initial;
+
     --gap: 0px;
-    --margin-left:20vw;
+    --margin:0 auto !important;
     --background-transition: .3s;
     border-style: solid;
     --border-style: solid;
