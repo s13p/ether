@@ -10642,8 +10642,7 @@ body.elementor-page-246>.elementor-motion-effects-container>.elementor-motion-ef
 
     .elementor-246 .elementor-element.elementor-element-6d96384:not(.elementor-motion-effects-element-type-background),
     .elementor-246 .elementor-element.elementor-element-6d96384>.elementor-motion-effects-container>.elementor-motion-effects-layer {
-        background-image: var(--e-bg-lazyload-loaded);
-        --e-bg-lazyload: url("https://0xfreelance.io/wp-content/uploads/2023/07/Token-Utiltiy-mobile.png.webp");
+        background-color: #07677c;
         background-position: top center;
         background-size: cover
     }
