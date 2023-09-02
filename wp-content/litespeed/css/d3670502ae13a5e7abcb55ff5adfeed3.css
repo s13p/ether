@@ -5758,9 +5758,7 @@
 
 .elementor-246 .elementor-element.elementor-element-6d96384:not(.elementor-motion-effects-element-type-background),
 .elementor-246 .elementor-element.elementor-element-6d96384>.elementor-motion-effects-container>.elementor-motion-effects-layer {
-    background-image: var(--e-bg-lazyload-loaded);
-    --e-bg-lazyload: url("https://0xfreelance.io/wp-content/uploads/2023/07/Token-Utiltiy.png.webp");
-    background-position: center center;
+    background-color: #032027;
     background-repeat: no-repeat;
     background-size: cover
 }
