@@ -18,6 +18,7 @@
         href="https://0xfreelance.io/feed/" />
     <link rel="alternate" type="application/rss+xml" title="0xFreelance &raquo; Comments Feed"
         href="https://0xfreelance.io/comments/feed/" />
+        
     <link data-optimized="1" rel='stylesheet' id='wp-block-library-css'
         href='./wp-content/litespeed/css/f4dbf919d97d656dcfc7027ca7387c54.css'
         media='all' />
@@ -978,15 +979,153 @@
                             .elementor-widget-heading .elementor-heading-title.elementor-size-xxl {
                                 font-size: 59px
                             }
-                        </style><span class="elementor-heading-title elementor-size-default">ETHEREUM EYE</span>
+                        </style>
+           <style>
+      
+            .ul {
+                display: flex;
+                padding-left:  1% !important;
+                width: 100%;
+                height: auto;
+                
+                justify-content: center;
+                align-items: center;
+            }
+         .h1 {
+    font-size:10px ;
+  }     
+.li {
+  display: block;
+    
+  font-size: .5em;
+  list-style-type: none;
+  padding: 1em;
+    margin: 5px 1px;
+  height: 4em;
+  text-transform: uppercase;
+}
+
+.li span {
+    display: flex;
+  flex-direction: column;
+  font-size: 2.5rem;
+  margin-top: 10px;
+  
+}
+
+.emoji {
+  display: none;
+  padding: 1rem;
+}
+
+.emoji span {
+  font-size: 4rem;
+  padding: 0 .5rem;
+}
+
+@media all and (max-width: 768px) {
+    .ul {
+        min-height: 7em !important;  
+    }
+  .h1 {
+    font-size:30px ;
+  }
+  
+  .li {
+   font-size:  0px;
+   display: block;
+    padding: 0 20px;
+
+
+  }
+  
+  .li span {
+ font-size:   40px;
+ 
+
+  }
+
+}
+           </style>
+           <script >
+            (function () {
+  const second = 1000,
+        minute = second * 60,
+        hour = minute * 60,
+        day = hour * 24;
+
+  //I'm adding this section so I don't have to keep updating this pen every year :-)
+  //remove this if you don't need it
+  let today = new Date(),
+      dd = String(today.getDate()).padStart(2, "0"),
+      mm = String(today.getMonth() + 1).padStart(2, "0"),
+      yyyy = today.getFullYear(),
+      nextYear = yyyy + 1,
+      dayMonth = "09/15/",
+      birthday = dayMonth + yyyy;
+  
+  today = mm + "/" + dd + "/" + yyyy;
+  if (today > birthday) {
+    birthday = dayMonth + nextYear;
+  }
+  //end
+  
+  const countDown = new Date(birthday).getTime(),
+      x = setInterval(function() {    
+
+        const now = new Date().getTime(),
+              distance = countDown - now;
+
+        document.getElementById("days").innerText = Math.floor(distance / (day)),
+          document.getElementById("hours").innerText = Math.floor((distance % (day)) / (hour)),
+          document.getElementById("minutes").innerText = Math.floor((distance % (hour)) / (minute)),
+          document.getElementById("seconds").innerText = Math.floor((distance % (minute)) / second);
+
+        //do something later when date is reached
+        if (distance < 0) {
+          document.getElementById("headline").innerText = "It's my birthday!";
+          document.getElementById("countdown").style.display = "none";
+          document.getElementById("content").style.display = "block";
+          clearInterval(x);
+        }
+        //seconds
+      }, 0)
+  }());
+           </script>
+                        <span class="elementor-heading-title elementor-size-xxl" style="font-size: 50px;">ETHEREUM EYE</span>
+
+    
+                        <div class="elementor-heading-title  "  >
+                            <div style="z-index: 99999 !important;" id="countdown">
+                                <ul class="ul" >
+                                  <li class="li" ><span id="days"></span>D</li>
+                                  <li class="li" ><span id="hours"></span>H</li>
+                                  <li  class="li"  ><span id="minutes"></span>M</li>
+                                  <li  class="li" ><span id="seconds"></span>S</li>
+                                </ul>
+                              </div>
+                            
+                        </div>
+
                     </div>
+
+                
                 </div>
                 <div class="elementor-element elementor-element-323b54d elementor-hidden-mobile second-header elementor-widget elementor-widget-heading"
                     data-id="323b54d" data-element_type="widget" data-widget_type="heading.default">
                     <div class="elementor-widget-container">
-                        <h3 class="elementor-heading-title elementor-size-default">Launching Friday - 8/09/23 10PM UTC  </h3>
+
+
+                        <h3 class="elementor-heading-title elementor-size-default">  
+
+
+   
+
+
+                        </h3>
                         <img style="height: 35vh;" src="./logoi.png" alt="">
                     </div>
+            
                 </div>
           
                 
@@ -2312,6 +2451,7 @@
         </div>
 
     </div>
+ 
     <script type='text/javascript'
         src="data:text/javascript;base64,Y29uc3QgbGF6eWxvYWRSdW5PYnNlcnZlcj0oKT0+e2NvbnN0IGRhdGFBdHRyaWJ1dGU9J2RhdGEtZS1iZy1sYXp5bG9hZCc7Y29uc3QgbGF6eWxvYWRCYWNrZ3JvdW5kcz1kb2N1bWVudC5xdWVyeVNlbGVjdG9yQWxsKGBbJHsgZGF0YUF0dHJpYnV0ZSB9XTpub3QoLmxhenlsb2FkZWQpYCk7Y29uc3QgbGF6eWxvYWRCYWNrZ3JvdW5kT2JzZXJ2ZXI9bmV3IEludGVyc2VjdGlvbk9ic2VydmVyKChlbnRyaWVzKT0+e2VudHJpZXMuZm9yRWFjaCgoZW50cnkpPT57aWYoZW50cnkuaXNJbnRlcnNlY3Rpbmcpe2xldCBsYXp5bG9hZEJhY2tncm91bmQ9ZW50cnkudGFyZ2V0O2NvbnN0IGxhenlsb2FkU2VsZWN0b3I9bGF6eWxvYWRCYWNrZ3JvdW5kLmdldEF0dHJpYnV0ZShkYXRhQXR0cmlidXRlKTtpZihsYXp5bG9hZFNlbGVjdG9yKXtsYXp5bG9hZEJhY2tncm91bmQ9ZW50cnkudGFyZ2V0LnF1ZXJ5U2VsZWN0b3IobGF6eWxvYWRTZWxlY3Rvcil9CmlmKGxhenlsb2FkQmFja2dyb3VuZCl7bGF6eWxvYWRCYWNrZ3JvdW5kLmNsYXNzTGlzdC5hZGQoJ2xhenlsb2FkZWQnKX0KbGF6eWxvYWRCYWNrZ3JvdW5kT2JzZXJ2ZXIudW5vYnNlcnZlKGVudHJ5LnRhcmdldCl9fSl9LHtyb290TWFyZ2luOicxMDBweCAwcHggMTAwcHggMHB4J30pO2xhenlsb2FkQmFja2dyb3VuZHMuZm9yRWFjaCgobGF6eWxvYWRCYWNrZ3JvdW5kKT0+e2xhenlsb2FkQmFja2dyb3VuZE9ic2VydmVyLm9ic2VydmUobGF6eWxvYWRCYWNrZ3JvdW5kKX0pfTtjb25zdCBldmVudHM9WydET01Db250ZW50TG9hZGVkJywnZWxlbWVudG9yL2xhenlsb2FkL29ic2VydmUnLF07ZXZlbnRzLmZvckVhY2goKGV2ZW50KT0+e2RvY3VtZW50LmFkZEV2ZW50TGlzdGVuZXIoZXZlbnQsbGF6eWxvYWRSdW5PYnNlcnZlcil9KQ=="
         defer></script>
@@ -2375,6 +2515,7 @@
     <script data-optimized="1"
         src='./wp-content/litespeed/js/3ada2c20d0d3c3c63602980312021af0.js?ver=21af0'
         id='pro-elements-handlers-js' defer data-deferred="1"></script>
+ 
 </body>
 
 </html>
